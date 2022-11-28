@@ -1,0 +1,17 @@
+footer {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-family: sans-serif; }
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; }
+    footer ul li {
+      font-size: 1.1rem; }
+      footer ul li a {
+        text-decoration: none;
+        color: white; }
