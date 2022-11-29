@@ -26,7 +26,7 @@ app.use(cors());
 // setup the chat server to be used with socket.io
 const chatServer = require('http').Server(app);
 const chatSockets = require('./config/chat_socket').chatSockets(chatServer);
-chatServer.listen(500);
+chatServer.listen(1000);
 console.log('chat server is listening on port 500');
 const path = require('path');
 
