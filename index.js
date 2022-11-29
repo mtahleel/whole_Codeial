@@ -27,7 +27,7 @@ app.use(cors());
 const chatServer = require('http').Server(app);
 const chatSockets = require('./config/chat_socket').chatSockets(chatServer);
 chatServer.listen(2000);
-console.log('chat server is listening on port 500');
+console.log('chat server is listening on port 2000');
 const path = require('path');
 
 if(env.name == 'development'){
